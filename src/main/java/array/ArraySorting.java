@@ -84,13 +84,13 @@ public class ArraySorting {
         ArraySorting arraySorting = new ArraySorting();
         int [] numArray = new int[]{10, 8, 20, 6, 44, 76, 1, 99, 55, 13};
 
-        String [] strArray = new String[]{"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"};
+        //String [] strArray = new String[]{"One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten"};
 
-        //arraySorting.ascendingNumericSort(numArray);
+        arraySorting.ascendingNumericSort(numArray);
         //arraySorting.descendingNumericSort(numArray);
 
-        for(int i=0; i<arraySorting.stringSort(strArray).length; i++){
-            System.out.println(arraySorting.stringSort(strArray)[i]);
-        }
+        //for(int i=0; i<arraySorting.stringSort(strArray).length; i++){
+            //System.out.println(arraySorting.stringSort(strArray)[i]);
+        //}
     }
 }
